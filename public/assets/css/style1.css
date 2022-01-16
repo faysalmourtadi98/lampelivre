@@ -1,0 +1,130 @@
+/*-----------------------------checkOUT----------------------*/
+.h2{
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: -20px;
+    font-size: 30px;
+}
+.header2{
+    background: #fff;
+}
+  .row1 {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    margin: -10px;
+    
+  }
+  .row2{
+      padding-top: 30px;
+      background-color: white;
+      margin-left: 150px;
+      
+  }
+
+  .col-25 {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+  }
+  
+  .col-50 {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+  }
+  
+  .col-75 {
+    -ms-flex: 75%; /* IE10 */
+    flex: 75%;
+    background-color: white;
+  }
+  
+  .col-25,
+  .col-50,
+  .col-75 {
+    padding: 0 16px;
+  }
+  
+  .container1{
+    background-color: #f2f2f2;
+    padding: 20px 10px 10px ;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    margin-left:30px;
+    margin-right: -100px;
+    margin-bottom: 50px;
+    margin-top: -20px;
+    padding-left: 30px;
+    padding-right: 10px;
+    width: 750px;
+    height:620px;
+  }
+
+ .ro input {
+    width: 90%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .icon-container {
+    margin-bottom: 4px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+ .cname{
+     padding-bottom: 8px;
+ }
+  
+  hr {
+    border: 1px solid lightgrey;
+  }
+  
+  span.price {
+    float: right;
+    color: grey;
+  }
+  
+  .row1 .col-50{
+      margin-top: -60px;
+  }
+.expyear .cvv .zib .state{
+      width: 1000px;
+  }
+
+  .col-50 h3{
+      padding-bottom:10px ;
+  }
+  .col50{
+      padding-top: 8px;     
+      padding-bottom:-40px;
+  }
+  .col50r{
+      padding-top: 12px;
+  }
+.btnC{
+    width:20px;
+    height: 35px;
+}
+.shipping{
+   padding-top: 50px;
+   padding-left: 10px;
+   display: inline-flex;
+   font-size: large;
+}
+.cheeck{
+    margin-left: 30px;
+    margin-top: -4px;
+    width: 15px;
+}
+#cart{
+    padding-left: 550px;
+    margin-top: -750px;
+    
+}

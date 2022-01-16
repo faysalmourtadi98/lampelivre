@@ -1,0 +1,114 @@
+header {
+    width: 100%;
+    height: 100px;
+    line-height: 50px;
+}
+.header-content {
+    display: flex;
+    justify-content: space-between;
+}
+.header-content ul {
+    display: flex;
+    font-size: large;
+}
+.header-content ul li {
+    margin-right: 30px;
+    list-style: none;
+    color: #1d1d1d;
+    text-decoration: none;
+    display: block;
+    font-family: serif;
+    font-weight: bold;
+}
+.header-content ul li a {
+    margin-right: 30px;
+    list-style: none;
+    color: #1d1d1d;
+    text-decoration: none;
+    display: block;
+    font-family: serif;
+    font-weight: bold;
+}
+.text-black {
+    font-family: serif;
+    font-weight: bold;
+}
+.menu-btn {
+    color: #1d1d1d;
+    font-size: 20px;
+    cursor: pointer;
+}
+.wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.sidebar {
+    width: 170px;
+    background: #1d1d1d;
+    color: #fff;
+    height: 10000px;
+    position: fixed;
+}
+.sidebar ul {
+    padding-left: 0px;
+    position: fixed;
+}
+.sidebar .nav-bar li {
+    list-style: none;
+    padding-bottom: 18px;
+    padding-top: 18px;
+    padding-left: 15px;
+    font-size: larger;
+}
+.sidebar .nav-bar li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+.working-panel {
+    width: 100%;
+    padding-left: 170px;
+}
+.bg-red {
+    background: linear-gradient(to right, rgb(139, 0, 0), red);
+}
+.bg-green {
+    background: linear-gradient(to right, green, lime);
+}
+.bg-blue {
+    background: linear-gradient(to right, rgb(255, 69, 0), orange);
+}
+.bg-blue-marin {
+    background: linear-gradient(to right, #ffbf00, yellow);
+}
+
+.alert.alert-info {
+    margin-top: 35px;
+}
+td,
+tr,
+th {
+    text-align: center;
+    vertical-align: middle;
+}
+.pagination {
+    margin-bottom: 15px;
+}
+.active {
+    background-color: orange;
+    width: 170px;
+}
+.sidebar .nav-bar li:hover {
+    background-color: #ffb62e;
+    width: 170px;
+}
+.form-group-image {
+    height: 0px;
+}
+.form-group-data {
+    padding-left: 420px;
+    height: 568px;
+}
+textarea {
+    background-color: #e9ecef;
+}
