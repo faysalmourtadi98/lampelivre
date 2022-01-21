@@ -13,39 +13,6 @@ INSERT INTO checkouts  VALUES
 -- Dumping data for table migrations
 --
 
-INSERT INTO migrations VALUES
-(2, '2014_10_12_100000_create_password_resets_table', 1),
-(3, '2019_08_19_000000_create_failed_jobs_table', 1),
-(13, '2014_10_12_000000_create_users_table', 4),
-(17, '2021_06_01_161312_laratrust_setup_tables', 7),
-(23, '2021_05_19_235739_create_categories_table', 8),
-(24, '2021_05_19_224320_create_products_table', 9),
-(25, '2021_06_03_102440_create_paniers_table', 10),
-(27, '2022_01_11_205056_create_categories_table', 0),
-(28, '2022_01_11_205056_create_checkouts_table', 0),
-(29, '2022_01_11_205056_create_failed_jobs_table', 0),
-(30, '2022_01_11_205056_create_paniers_table', 0),
-(31, '2022_01_11_205056_create_password_resets_table', 0),
-(32, '2022_01_11_205056_create_permission_role_table', 0),
-(33, '2022_01_11_205056_create_permission_user_table', 0),
-(34, '2022_01_11_205056_create_permissions_table', 0),
-(35, '2022_01_11_205056_create_products_table', 0),
-(36, '2022_01_11_205056_create_role_user_table', 0),
-(37, '2022_01_11_205056_create_roles_table', 0),
-(38, '2022_01_11_205056_create_users_table', 0),
-(39, '2022_01_11_211200_create_categories_table', 0),
-(40, '2022_01_11_211200_create_checkouts_table', 0),
-(41, '2022_01_11_211200_create_failed_jobs_table', 0),
-(42, '2022_01_11_211200_create_paniers_table', 0),
-(43, '2022_01_11_211200_create_password_resets_table', 0),
-(44, '2022_01_11_211200_create_permission_role_table', 0),
-(45, '2022_01_11_211200_create_permission_user_table', 0),
-(46, '2022_01_11_211200_create_permissions_table', 0),
-(47, '2022_01_11_211200_create_products_table', 0),
-(48, '2022_01_11_211200_create_role_user_table', 0),
-(49, '2022_01_11_211200_create_roles_table', 0),
-(50, '2022_01_11_211200_create_users_table', 0);
-
 --
 -- Dumping data for table paniers
 --
@@ -57,12 +24,6 @@ INSERT INTO paniers VALUES
 --
 -- Dumping data for table password_resets
 --
-
-INSERT INTO password_resets  VALUES
-('xiragynev@mailinator.com', '$2y$10$PTIbjS76KsCy9OAfeWcQVeSMsbQOue2noHMB9lw6C0aEiLJompR.K', '2021-06-08 12:37:56'),
-('misekuhoh@mailinator.com', '$2y$10$pdyDFuY.hytel.Mq82M5Q.d6n9V/WXXjzkXu3tdDQu93K29ey1Iwa', '2021-06-13 04:58:14'),
-('faysalmour98@gmail.com', '$2y$10$8iEHmheJ3ftGjr/eyvREA.ov4GIkdOtvaYVnpdkCBgS66v7FZhy0m', '2021-06-13 15:14:53');
-
 --
 -- Dumping data for table permissions
 --
@@ -113,7 +74,7 @@ INSERT INTO permission_role VALUES
 
 INSERT INTO products  VALUES
 (1, 1, 'A Brief History of Time', '100', 'book2.jpg', 'MAD', 'Une brève histoire du temps : Du big bang aux trous noirs est un ouvrage de vulgarisation scientifique qui traite de cosmologie, la science des lois qui gouvernent l’univers', 'vide', 'oui', '2021-05-30 16:18:16', '2021-05-30 16:18:16'),
-(2, 1, 'Basic Economics: A Commoon Sense Guide to the Economy', '140', 'book6.jpg', 'MAD', 'citizen's guide to economics-for those who want to understand how the economy works but have no interest in jargon or equations. Sowell reveals the general principles behind any kind of economy-capitalist, socialist, feudal', 'vide', 'vide', '2021-05-30 16:20:44', '2021-05-30 16:22:53'),
+(2, 1, 'Basic Economics: A Commoon Sense Guide to the Economy', '140', 'book6.jpg', 'MAD', 'citizen  guide to economics-for those who want to understand how the economy works but have no interest in jargon or equations. Sowell reveals the general principles behind any kind of economy-capitalist, socialist, feudal', 'vide', 'vide', '2021-05-30 16:20:44', '2021-05-30 16:22:53'),
 (3, 3, 'Eloquent JavaScript', '100', 'book4.jpg', 'MAD', 'vide', 'vide', 'oui', '2021-05-27 12:08:24', '2021-05-27 12:08:24'),
 (4, 2, 'Everything you need to age Math in one big fat notebook', '40', 'book3.jpg', 'MAD', 'vide', 'vide', 'oui', '2021-05-30 16:17:24', '2021-05-30 16:17:24'),
 (5, 3, 'Java: A Beginner’s', '35', 'java.jpg', 'MAD', 'vide', 'vide', 'oui', '2021-05-27 12:06:57', '2021-05-27 12:06:57'),
@@ -157,4 +118,3 @@ INSERT INTO role_user  VALUES
 (2, 53, 'App\\Models\\User'),
 (2, 54, 'App\\Models\\User'),
 (2, 55, 'App\\Models\\User');
-COMMIT;
