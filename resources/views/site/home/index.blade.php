@@ -24,13 +24,7 @@
        </div>
     </div>
      <div class="col-2 colIndex2">
-         <ul type="none">
-         <li class="Lgratuit"><a href="#" class="btn btn2">livres gratuits</a></li>
-         <li class="Lpaye"><a href="#" class="btn btn2">livres payé</a></li>
-         <li class="Fvideos"><a href="#" class="btn btn2">formation videos</a></li>
-         <li><img src="{{asset('assets/img/biblioV3.png')}}"></li>
-         
-         </ul>
+      <img src="{{asset('assets/img/logoBooks.png')}}">
      </div>
    </div>
   </div>
