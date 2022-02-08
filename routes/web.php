@@ -27,6 +27,14 @@ use Illuminate\Support\Facades\Route;
     Route::put('/dashboard/categories/update/categorie_id={id}', [dashboard\CategoriesController::class,'update'])->name('dashboard.categories.update');
     Route::delete('/dashboard/categories/delete/categorie_id={id}', [dashboard\CategoriesController::class,'delete'])->name('dashboard.categories.delete');
     //dashboard.users
+    Route::get('/dashboard/categories/index/', [dashboard\CategoriesController::class,'index'])->name('dashboard.categories.index');
+    Route::get('/dashboard/categories/show/categorie_id={id}', [dashboard\CategoriesController::class,'show'])->name('dashboard.categories.show');
+    Route::get('/dashboard/categories/create/', [dashboard\CategoriesController::class,'create'])->name('dashboard.categories.create');
+    Route::post('/dashboard/categories/store/', [dashboard\CategoriesController::class,'store'])->name('dashboard.categories.store');
+    Route::get('/dashboard/categories/edit/categorie_id={id}', [dashboard\CategoriesController::class,'edit'])->name('dashboard.categories.edit');
+    Route::put('/dashboard/categories/update/categorie_id={id}', [dashboard\CategoriesController::class,'update'])->name('dashboard.categories.update');
+    Route::delete('/dashboard/categories/delete/categorie_id={id}', [dashboard\CategoriesController::class,'delete'])->name('dashboard.categories.delete');
+    //dashboard.users
     Route::get('/dashboard/users/index',[dashboard\UsersController::class,'index'])->name('dashboard.users.index');
     Route::get("/dashboard/users/show/user_id={id}",[dashboard\UsersController::class,'show'])->name('dashboard.users.show');
     Route::get("/dashboard/users/edit/user_id={id}",[dashboard\UsersController::class,'edit'])->name('dashboard.users.edit');
