@@ -70,7 +70,7 @@ class ProductsController extends Controller
       $product_image=$file->getClientOriginalName(); 
       $produit->product_image=$product_image;
       $produit->save();
-      $file->move(public_path('/assets/img'), $product_image);
+      $file->move(public_path('/img'), $product_image);
      return Redirect(Route('dashboard.products.index',['products'=>Product::get()]));
     }
 
@@ -105,7 +105,7 @@ class ProductsController extends Controller
             /*$file=$request->file('product_image');
             $product_image=$file->getClientOriginalName(); 
             $produit->product_image=$product_image;
-            $file->move(public_path('/assets/img'), $product_image);*/
+            $file->move(public_path('/img'), $product_image);*/
             $produit->save();
        return Redirect(Route('dashboard.products.index',['products'=>Product::get()]));
     }

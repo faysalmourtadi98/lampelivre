@@ -9,7 +9,7 @@
     <div class="container">
         <div class="row">    
             <div class="col1">
-                <img src="{{asset('/assets/img/logoBooks.png')}}" width="100%">
+                <img src="{{asset('/img/logoBooks.png')}}" width="100%">
             </div>
             <div class="col2">
                   <div class="form-container">

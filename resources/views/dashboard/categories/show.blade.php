@@ -42,7 +42,7 @@
           <tr>    
               @foreach ($products as $key)
               <th scope="row">{{$key->id}}</th>
-              <td><img src="{{asset('/assets/img/'.$key->product_image)}}" width="200" height="250"></td>            
+              <td><img src="{{asset('/img/'.$key->product_image)}}" width="200" height="250"></td>            
               <td>{{$key->product_name}}</td>
               <td>{{"$key->product_auteur"}}</td>
               <td>{{$key->categorie_id}}</td> 
@@ -76,7 +76,7 @@
         @foreach ($products as $product)
       <div class="titre-edit">
         <div class="form-group">
-            <img src="{{asset("assets/img/".$product->product_image)}}" width="200" height="250">
+            <img src="{{asset("/img/".$product->product_image)}}" width="200" height="250">
         </div> 
         <div class="form-group">
             <input class="form-control" type="text" id="product_name" name="product_name" placeholder="Product Name"value="{{$product->product_name}}" disabled>
