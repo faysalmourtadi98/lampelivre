@@ -42,7 +42,7 @@
           <tr>    
               @foreach ($products as $key)
               <th scope="row">{{$key->id}}</th>
-              <td><img src="{{asset('img/'.$key->product_image)}}" width="200" height="250"></td>            
+              <td><img src="{{mix('img/'.$key->product_image)}}" width="200" height="250"></td>            
               <td>{{$key->product_name}}</td>
               <td>{{"$key->product_auteur"}}</td>
               <td>{{$key->categorie_id}}</td> 
