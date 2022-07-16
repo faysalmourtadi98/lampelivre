@@ -4,7 +4,7 @@
                 <div class="row">
                     <div class="col-md-6 item text">
                         <div class="logo">
-                            <img src="{{asset('/img/logoLampeV2.png')}}">
+                            <img src="{{asset('img/logoLampeV2.png')}}">
                        </div>
                         <p>la plus grand bibliothèque électronique en ligne au Maroc.
                             Grâce à cette bibliothèque vous pouvez lire des livres numériques,

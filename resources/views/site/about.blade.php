@@ -40,9 +40,9 @@
   </div>
    <div class="col-2">
      <ul type="none">
-       <li><img src="{{asset('/img/bundle-of-books-r6w.png')}}"></li>
-       <li><img src="{{asset('/img/booksRead.png')}}"></li>
-       <li><img src="{{asset('/img/student.png')}}"></li>
+       <li><img src="{{asset('img/bundle-of-books-r6w.png')}}"></li>
+       <li><img src="{{asset('img/booksRead.png')}}"></li>
+       <li><img src="{{asset('img/student.png')}}"></li>
      </ul>
    </div>
  </div> 
