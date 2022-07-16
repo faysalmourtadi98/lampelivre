@@ -11,9 +11,9 @@
     <!--bootstrap-->
     <link rel="stylesheet" href="{{asset('/css/Bootstrap-Icon/bootstrap.min.css')}}">
     <!--fontGoogle-->
-    <link rel="stylesheet" href="{{ asset('/css/Google-Font/Karantina.css') }}">
-    <link rel="stylesheet" href="{{ asset('/css/Google-Font/Oswald.css') }}">
-    <link rel="stylesheet" href="{{ asset('/css/Google-Font/Playfaire_Display.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/Google-Font/Karantina.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/Google-Font/Oswald.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/Google-Font/Playfaire_Display.css') }}">
      <!--fontAwsome-->
     <link rel="stylesheet" href="{{asset('/css/Font-Awesome/css/all.min.css')}}">
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
