@@ -81,7 +81,7 @@ class RegisterController extends Controller
             'date_naissance' => $data['date_naissance'],
         ]);
         // $user->attachRole('user');
-        $user->attachRole('administrator
+        $user->attachRole('administrator');
         return $user; 
         
     }
