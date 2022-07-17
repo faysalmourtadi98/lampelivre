@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="{{  secure_asset('css/Google-Font/Playfaire_Display.css') }}">
      <!--fontAwsome-->
     <link rel="stylesheet" href="{{ secure_asset('css/Font-Awesome/css/all.min.css')}}">
+    <link rel="icon" href="{{ secure_asset('img/logoBooks4.png')}}" sizes="16x16"  type="image/png">
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head> 
 <body>

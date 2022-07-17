@@ -17,6 +17,7 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <!-- Styles -->
+    <link rel="icon" href="{{ secure_asset('img/logoBooks4.png')}}" sizes="16x16"  type="image/png">
     <link href="{{  secure_asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
