@@ -20,7 +20,7 @@
        <!--------Products ligne 1---------->
        @foreach ($products as $product)
        <div class="col-4">
-         <a href="{{Route('site.products.show',$product->id)}}"><img src="{{ asset('img/'.$product->product_image)}}" height="360"></a>
+         <a href="{{Route('site.products.show',$product->id)}}"><img src="{{ secure_asset('img/'.$product->product_image)}}" height="360"></a>
          <a href="{{Route('site.products.show',$product->id)}}">
           <div class="product_name">
             <h4>{{$product->product_name}}</h4></a>

@@ -3,7 +3,7 @@
 <title>About</title>
 @endsection
 @section('style')
-<link rel="stylesheet" href="{{  asset('css/style1.css') }}">
+<link rel="stylesheet" href="{{  secure_asset('css/style1.css') }}">
 @endsection
 @section('content')
 <div class="row2">
