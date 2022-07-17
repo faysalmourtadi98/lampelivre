@@ -17,8 +17,7 @@
         "laravel/ui": "^3.4",
         "orangehill/iseed": "^3.0",
         "santigarcor/laratrust": "^6.3",
-        "ext-pdo_sqlite": "*",
-        "ext-mbstring": "*"
+        "ext-pdo_sqlite": "*"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
