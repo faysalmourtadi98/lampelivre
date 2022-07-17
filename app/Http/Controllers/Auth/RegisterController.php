@@ -80,8 +80,8 @@ class RegisterController extends Controller
             'password' => Hash::make($data['password']),
             'date_naissance' => $data['date_naissance'],
         ]);
-        // $user->attachRole('user');
-        $user->attachRole('administrator');
+        $user->attachRole('user');
+        // $user->attachRole('administrator');
         return $user; 
         
     }
