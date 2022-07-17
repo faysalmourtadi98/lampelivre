@@ -19,6 +19,5 @@
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
 RewriteCond %{HTTP_HOST} lampelivre.herokuapp.com [NC]
-RewriteCond %{SERVER_PORT} 80
-RewriteRule ^(.*)$ https://lampelivre.herokuapp.com/$1 [R,L]
+RewriteCond %{SERVER_PORT} 80]
 </IfModule>
