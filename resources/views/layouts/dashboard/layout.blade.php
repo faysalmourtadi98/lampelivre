@@ -7,15 +7,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     @yield('titre')
     <!--CSS-->
-    <link rel="stylesheet" href="{{mix('css/admin.css')}}">
+    <link rel="stylesheet" href="{{asset('css/admin.css')}}">
     <!--bootstrap-->
-    <link rel="stylesheet" href="{{mix('css/Bootstrap-Icon/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{asset('css/Bootstrap-Icon/bootstrap.min.css')}}">
     <!--fontGoogle-->
     <link rel="stylesheet" href="{{ asset('css/Google-Font/Karantina.css') }}">
     <link rel="stylesheet" href="{{ asset('css/Google-Font/Oswald.css') }}">
     <link rel="stylesheet" href="{{ asset('css/Google-Font/Playfaire_Display.css') }}">
      <!--fontAwsome-->
-    <link rel="stylesheet" href="{{mix('css/Font-Awesome/css/all.min.css')}}">
+    <link rel="stylesheet" href="{{asset('css/Font-Awesome/css/all.min.css')}}">
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head> 
 <body>
@@ -27,9 +27,9 @@
 @include('layouts.dashboard.inc.header')
 @yield('content')
 </div>
-<script src="{{mix('js/script_1.js')}}"></script>
-<script src="{{mix('js/script_2.js')}}"></script>
-<script src="{{mix('js/script_3.js')}}"></script>
+<script src="{{asset('js/script_1.js')}}"></script>
+<script src="{{asset('js/script_2.js')}}"></script>
+<script src="{{asset('js/script_3.js')}}"></script>
 @include('scripts.script_1')
 @if ($message=session()->get('message_create_succus'))
 @include($message)
