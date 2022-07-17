@@ -13,14 +13,6 @@
                         </p>
                     </div>
                     <div class="col-sm-6 col-md-3 item">
-                        <h3>Services</h3>
-                        <ul>
-                            <li><a href="#">Web design</a></li>
-                            <li><a href="#">Development</a></li>
-                            <li><a href="#">Hosting</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-6 col-md-3 item">
                         <h3>Contact</h3>
                         <ul>
                             <li><a><i class="bi bi-house-door"></i> B.P 8106, AGADIR 80000</a><li>
