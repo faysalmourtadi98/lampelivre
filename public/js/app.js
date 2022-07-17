@@ -9873,7 +9873,7 @@ const DIRECTIVES = 'directives';
  * @private
  */
 function resolveComponent(name, maybeSelfReference) {
-    return resolve secure_asset(COMPONENTS, name, true, maybeSelfReference) || name;
+    return resolveasset(COMPONENTS, name, true, maybeSelfReference) || name;
 }
 const NULL_DYNAMIC_COMPONENT = Symbol();
 /**
