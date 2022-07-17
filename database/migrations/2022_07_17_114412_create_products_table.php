@@ -24,7 +24,7 @@ class CreateProductsTable extends Migration {
 			$table->string('product_description', 5000);
 			$table->string('product_auteur');
 			$table->string('product_in_stock');
-			$table->timestamps(6);
+			$table->timestamps(10);
 		});
 	}
 

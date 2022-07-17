@@ -18,7 +18,7 @@ class CreateCategoriesTable extends Migration {
 			$table->bigInteger('id', true)->unsigned();
 			$table->string('categorie_name');
 			$table->string('categorie_description');
-			$table->timestamps(6);
+			$table->timestamps(10);
 		});
 	}
 

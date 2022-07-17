@@ -13,11 +13,11 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        $this->call(
-            [
-                LaratrustSeeder::class,
-                SqlFileSeeder::class
-            ]
-        );
+        $this->call(LaratrustSeeder::class,);
+        $this->call(CategoriesTableSeeder::class);
+        $this->call(CheckoutsTableSeeder::class);
+        $this->call(PaniersTableSeeder::class);
+        $this->call(ProductsTableSeeder::class);
+        $this->call(UsersTableSeeder::class);
     }
 }

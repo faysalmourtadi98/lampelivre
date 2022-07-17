@@ -29,7 +29,7 @@ class CreateCheckoutsTable extends Migration {
 			$table->string('checkout_exp_year');
 			$table->string('checkout_cvv');
 			$table->string('checkout_valide');
-			$table->timestamps(6);
+			$table->timestamps(10);
 		});
 	}
 
