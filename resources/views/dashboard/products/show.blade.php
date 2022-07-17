@@ -8,7 +8,7 @@
 </div>
 <div class="titre-edit">
         <div class="form-group-image">
-            <img src="{{asset("/img/".$product->product_image)}}" width="405" height="550">
+            <img src="{{ secure_asset("/img/".$product->product_image)}}" width="405" height="550">
         </div> 
         <div class="form-group-data">
           <div class="form-group row">

@@ -2,8 +2,8 @@
         <div class="container cont">
            <div class="navBar">
               <div class="logo">
-                   <a href="{{Route('site.home.index')}}"><img id="img1" src="{{asset('img/logoBooks.png')}}"></a>
-                   <a href="{{Route('site.home.index')}}"><img id="img2" src="{{asset('img/logoLampe4.png')}}"></a>
+                   <a href="{{Route('site.home.index')}}"><img id="img1" src="{{ secure_asset('img/logoBooks.png')}}"></a>
+                   <a href="{{Route('site.home.index')}}"><img id="img2" src="{{ secure_asset('img/logoLampe4.png')}}"></a>
                    
               </div>
               <nav>
