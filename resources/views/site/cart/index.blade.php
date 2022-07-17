@@ -16,7 +16,7 @@
         <tr>
             <td>
                 <div class="cart-info">
-                   <img src="{{ secure_asset('img/'.$item->product->product_image)}}">
+                   <img src="{{ asset('img/'.$item->product->product_image)}}">
                    <div>
                         <p>{{$item->product->product_name}}</p>
                         <small>Price : {{$item->product->product_prix}}$</small><br>                     

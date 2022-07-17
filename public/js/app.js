@@ -9881,7 +9881,7 @@ const NULL_DYNAMIC_COMPONENT = Symbol();
  */
 function resolveDynamicComponent(component) {
     if ((0,_vue_shared__WEBPACK_IMPORTED_MODULE_1__.isString)(component)) {
-        return resolve secure_asset(COMPONENTS, component, false) || component;
+        return resolve asset(COMPONENTS, component, false) || component;
     }
     else {
         // invalid types will fallthrough to createVNode and raise warning
@@ -9892,10 +9892,10 @@ function resolveDynamicComponent(component) {
  * @private
  */
 function resolveDirective(name) {
-    return resolve secure_asset(DIRECTIVES, name);
+    return resolve asset(DIRECTIVES, name);
 }
 // implementation
-function resolve secure_asset(type, name, warnMissing = true, maybeSelfReference = false) {
+function resolve asset(type, name, warnMissing = true, maybeSelfReference = false) {
     const instance = currentRenderingInstance || currentInstance;
     if (instance) {
         const Component = instance.type;

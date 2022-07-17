@@ -5,7 +5,7 @@
   @section('content')
   <div class="row">
     <div class="col-1">
-          <a href="{{Route('about')}}"><img src="{{ secure_asset('img/logoLampe4.png')}}"></a>
+          <a href="{{Route('about')}}"><img src="{{ asset('img/logoLampe4.png')}}"></a>
       <div id="lampeLivre"> 
          <h2> Bienvenue à "Lampe de livre"</h2>
          <p class="p1"> 
@@ -24,7 +24,7 @@
        </div>
     </div>
      <div class="col-2 colIndex2">
-      <img src="{{ secure_asset('img/logoBooks.png')}}">
+      <img src="{{ asset('img/logoBooks.png')}}">
      </div>
    </div>
   </div>
@@ -34,7 +34,7 @@
      <div class="row">
       @foreach ($products as $product)
       <div class="col-4">
-        <a href="{{Route('site.products.show',$product->id)}}"><img src="{{ secure_asset('img/'.$product->product_image)}}" height="360"></a>
+        <a href="{{Route('site.products.show',$product->id)}}"><img src="{{ asset('img/'.$product->product_image)}}" height="360"></a>
         <a href="{{Route('site.products.show',$product->id)}}">
          <div class="product_name">
            <h4>{{$product->product_name}}</h4></a>
@@ -57,7 +57,7 @@
       @foreach ($offre as $tab)
       <div class="row">
         <div class="col-2">
-          <a href="{{Route('site.products.show',$tab->id)}}"><img src="{{ secure_asset('img/'.$tab->product_image)}}" class="offer-img" style="padding-top: 150px;"></a>
+          <a href="{{Route('site.products.show',$tab->id)}}"><img src="{{ asset('img/'.$tab->product_image)}}" class="offer-img" style="padding-top: 150px;"></a>
           <div class="rating"  style="margin-top: 0px;">
             <i class="bi bi-star-fill"></i>
             <i class="bi bi-star-fill"></i>
@@ -99,7 +99,7 @@
             <i class="bi bi-star-fill"></i>
             <i class="bi bi-star-fill"></i>
            </div>
-           <img src="{{ secure_asset('img/user-1.png')}}">
+           <img src="{{ asset('img/user-1.png')}}">
            <h3>Noura Fathi</h3>
          </div>
        <div class="col-3">
@@ -115,7 +115,7 @@
           <i class="bi bi-star-fill"></i> 
           <i class="bi bi-star-half"></i> 
          </div>
-         <img src="{{ secure_asset('img/user-2.png')}}">
+         <img src="{{ asset('img/user-2.png')}}">
          <h3>Mhand Maous</h3>
        </div>
       <div class="col-3">
@@ -131,7 +131,7 @@
           <i class="bi bi-star-fill"></i> 
           <i class="bi bi-star"></i> 
          </div>
-         <img src="{{ secure_asset('img/user-3.png')}}">
+         <img src="{{ asset('img/user-3.png')}}">
          <h3>Souad Cisse</h3>
        </div>
      </div>
