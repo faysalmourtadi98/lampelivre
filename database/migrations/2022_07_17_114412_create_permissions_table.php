@@ -19,7 +19,7 @@ class CreatePermissionsTable extends Migration {
 			$table->string('name')->unique();
 			$table->string('display_name')->nullable();
 			$table->string('description')->nullable();
-			$table->timestamps(10);
+			$table->timestamps();
 		});
 	}
 

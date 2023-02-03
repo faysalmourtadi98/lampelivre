@@ -20,7 +20,7 @@ class CreatePaniersTable extends Migration {
 			$table->bigInteger('product_id')->unsigned()->index('paniers_product_id_foreign');
 			$table->bigInteger('nb_products')->unsigned();
 			$table->float('product_prix_total')->unsigned();
-			$table->timestamps(10);
+			$table->timestamps();
 		});
 	}
 
