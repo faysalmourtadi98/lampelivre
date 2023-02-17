@@ -17,7 +17,6 @@ use_dns_when_possible: true
 composer_version: "2"
 web_environment: []
 nodejs_version: "18"
-
 # Key features of ddev's config.yaml:
 
 # name: <projectname> # Name of the project, automatically provides
@@ -101,7 +100,7 @@ nodejs_version: "18"
 # in the upload_dir don't have to be synced into mutagen
 
 # working_dir:
-#   web: /var/www/html
+#   web: /var/www/html/html
 #   db: /home
 # would set the default working directory for the web and db services.
 # These values specify the destination directory for ddev ssh and the
@@ -226,11 +225,11 @@ nodejs_version: "18"
 
 #web_extra_daemons:
 #- name: "http-1"
-#  command: "/var/www/html/node_modules/.bin/http-server -p 3000"
-#  directory: /var/www/html
+#  command: "/var/www/html/html/node_modules/.bin/http-server -p 3000"
+#  directory: /var/www/html/html
 #- name: "http-2"
-#  command: "/var/www/html/node_modules/.bin/http-server /var/www/html/sub -p 3000"
-#  directory: /var/www/html
+#  command: "/var/www/html/html/node_modules/.bin/http-server /var/www/html/html/sub -p 3000"
+#  directory: /var/www/html/html
 
 # override_config: false
 # By default, config.*.yaml files are *merged* into the configuration
