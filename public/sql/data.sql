@@ -10,7 +10,7 @@ CREATE TABLE `categories` (
 );
 INSERT INTO `categories` (`id`, `categorie_name`, `categorie_description`, `created_at`, `updated_at`) VALUES
 (1, 'Economie', 'vide', '2021-05-31 01:04:14.000000', '2021-05-31 12:48:07.000000'),
-(2, 'Math/Physique', 'vide', '2021-05-31 01:04:32.000000', '2021-05-31 01:04:32.000000'),
+(2, 'Math/Physique', 'vide ', '2021-05-31 01:04:32.000000', '2021-05-31 01:04:32.000000'),
 (3, 'Informatique', 'vide', '2021-05-31 01:04:45.000000', '2021-05-31 01:04:45.000000'),
 (4, 'Littérature', 'vide', '2021-05-31 01:05:20.000000', '2021-05-31 01:05:20.000000');
 CREATE TABLE `checkouts` (
